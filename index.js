@@ -50,7 +50,7 @@ onValue(endorsementListInDb, function (snapshot) {
             addEndorsementToList(endorsementList[i][0], endorsementList[i][1])
         }
     } else {
-        listEl.innerHTML = "Please give some recomendation"
+        listEl.innerHTML = "Send a message..."
     }
 })
 
